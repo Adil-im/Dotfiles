@@ -1,0 +1,11 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "Alt-s": "Save,Quit",
+    "Ctrl-g": "command-edit:help ",
+    "Ctrl-x": "Redo",
+    "Ctrl-z": "Undo",
+    "CtrlUnderscore": "lua:comment.comment",
+    "F12": "command:makeup",
+    "F5": "command:runit",
+    "F9": "command:makeupbg"
+}

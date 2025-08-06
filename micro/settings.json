@@ -1,0 +1,7 @@
+{
+    "colorscheme": "dark",
+    "hlsearch": true,
+    "mkparents": true,
+    "softwrap": true,
+    "statusformatl": "$(status.branch) $(filename) |$(modified)($(line),$(col))| $(status.paste)|ft:$(opt:filetype)| $(opt:fileformat) | $(opt:encoding) [$(status.size)] [lines: $(status.lines)]"
+}

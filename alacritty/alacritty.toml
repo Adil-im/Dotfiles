@@ -1,0 +1,32 @@
+[env]
+TERM = "screen-256color"
+
+# 🖱 Mouse behavior
+[mouse]
+hide_when_typing = true
+
+[cursor.style]
+blinking = "Always"
+shape = "block"
+
+[font]
+size = 14 
+
+# 🔍 Text selection
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+# 🖥️ Window behavior
+[window]
+dynamic_title = true
+opacity = 1.0
+decorations = "none"
+dynamic_padding = true
+
+[general]
+import = ["themes/bloodmoon.toml"]
+
+[window.padding]
+x = 0
+y = 0
