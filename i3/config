@@ -90,10 +90,10 @@ bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
-#bindsym Control+Shift+Left focus left
-#bindsym Control+Shift+Down focus down
-#bindsym Control+Shift+Up focus up
-#bindsym Control+Shift+Right focus right
+bindsym Control+Shift+Left focus left
+bindsym Control+Shift+Down focus down
+bindsym Control+Shift+Up focus up
+bindsym Control+Shift+Right focus right
 
 # move focused window
 bindsym $mod+Shift+j move left
@@ -102,10 +102,10 @@ bindsym $mod+Shift+l move up
 bindsym $mod+Shift+semicolon move right
 
 # alternatively, you can use the cursor keys:
-#bindsym $mod+Shift+Left move left
-#bindsym $mod+Shift+Down move down
-#bindsym $mod+Shift+Up move up
-#bindsym $mod+Shift+Right move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -219,7 +219,7 @@ exec --no-startup-id xset s noblank     # Prevent screen blanking - FIXED: remov
 # Visuals
 # Gaps
 gaps inner 5
-gaps bottom 5
-gaps outer 5
+gaps bottom 3
+gaps outer 3
 # Gap for polybar
 gaps top 5
