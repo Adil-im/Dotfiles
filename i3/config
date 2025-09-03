@@ -1,4 +1,4 @@
-# Should you change your keyboard layout some time, delete
+#Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 #
 
@@ -32,7 +32,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # wallpaper
-exec_always --no-startup-id feh --bg-scale $HOME/pictures/6.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/pictures/cat_leaves.png
 
 # Kill existing picom instances and start fresh with proper config
 exec_always --no-startup-id "pkill picom; sleep 1; picom --config ~/.config/picom/picom.conf --log-level=DEBUG --log-file=/tmp/picom.log -b"
@@ -65,6 +65,12 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
+# Shutdown
+bindsym $mod+q exec sudo shutdown -h now
+
+#sleep
+bindsym $mod+Shift+s exec sleep
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
@@ -75,9 +81,12 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+t exec alacritty
 bindsym $mod+b exec firefox
-# mod+shift+r will hot reload the file after update
+bindsym $mod+p exec pcmanfm
+bindsym $mod+o exec okular 
 
-# A more modern dmenu replacement is rofi:
+# mod+shift+r will hot reload the file after update
+                          
+# A more modern dmenu repla$modcement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
@@ -219,7 +228,7 @@ exec --no-startup-id xset s noblank     # Prevent screen blanking - FIXED: remov
 # Visuals
 # Gaps
 gaps inner 5
-gaps bottom 3
-gaps outer 3
+gaps bottom 5
+gaps outer 5
 # Gap for polybar
 gaps top 5

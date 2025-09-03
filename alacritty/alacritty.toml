@@ -25,7 +25,7 @@ decorations = "none"
 dynamic_padding = true
 
 [general]
-import = ["themes/bloodmoon.toml"]
+import = ["themes/vague.toml"]
 
 [window.padding]
 x = 0

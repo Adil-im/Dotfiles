@@ -13,11 +13,12 @@ alias ..="cd .."
 alias sleep='sudo zzz'
 alias day='brightnessctl set 100%'
 alias night='brightnessctl set 40%'
-alias read='zathura '
 
 # More Speed
 alias soba='source .bashrc'
 alias viba='vim .bashrc'
+alias bld='build'
+alias vido='vim TO-DO.md'
 
 # XBPS Stuff
 alias xi='sudo xbps-install'
@@ -31,6 +32,7 @@ alias branch='git branch'
 alias push='git push'
 alias checkout='git checkout'
 alias add='git add .'
+alias pull='git pull'
 
 
 # Bash Prompt
