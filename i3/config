@@ -83,6 +83,8 @@ bindsym $mod+t exec alacritty
 bindsym $mod+b exec firefox
 bindsym $mod+p exec pcmanfm
 bindsym $mod+o exec okular 
+bindsym Control+f exec flameshot gui
+bindsym $mod+m exec audacious
 
 # mod+shift+r will hot reload the file after update
                           
@@ -227,8 +229,8 @@ exec --no-startup-id xset s noblank     # Prevent screen blanking - FIXED: remov
 
 # Visuals
 # Gaps
-gaps inner 5
-gaps bottom 5
-gaps outer 5
+#gaps inner 
+#gaps bottom 5
+#gaps outer 5
 # Gap for polybar
-gaps top 5
+gaps top 3 
